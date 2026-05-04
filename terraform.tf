@@ -1,5 +1,5 @@
 provider "vault" {
-  address = "http://vault-inernal.veerankitek.online:8200"
+  address = "http://vault-internal.veerankitek.online:8200"
   token   = var.token
 }
 
