@@ -6,6 +6,6 @@ resource "vault_mount" "secret-mounts" {
     version = "2"
     type    = "kv-v2"
   }
-  description = each.value["RoboShop Dev"]
+  description = each.value["description"]
 }
 
